@@ -26,7 +26,7 @@ class LoginPageTest {
             action: 'tap',
             element: { elementId: loginScreen.buttonFinder }
           });    
-          assert.strictEqual(await driver.getElementText(loginScreen.counterTextFinder), '3');
+          assert.strictEqual(await driver.getElementText(loginScreen.counterTextFinder), '2');
         // const isDisplayed = await (loginScreen.counterTextFinder).isDisplayed()
         // expectChai(isDisplayed).to.equal(true);
         // await driver.execute('flutter:waitFor', loginScreen.buttonFinder, 100)
